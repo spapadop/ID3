@@ -6,6 +6,15 @@
  * Assignment 1: ID3 Algorithm implementation.
  * Author: Sokratis Papadopoulos
  * Date: 29 September 2018
+ *
+ *
+ * Program accepts two arguments:
+ * 	1. the index of the output/label attribute, starting counting from zero (0).
+ * 	  For example if you provide number "6" it will select the 7th column as label.
+ * 	2. the absolute path of the data input file.
+ *
+ * 	Example execute command: java -jar ID3.jar 6 C:\Users\.....\ID3\car.data
+ *
  */
 
 package bdma.datamining;
